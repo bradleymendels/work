@@ -1,21 +1,58 @@
-body {
-    font-size
-}
-
-.text {
-    color: red;
-
-}
-
-#soup_box {
-    padding-left: 100px;
-}
-
-#soup {
-    max-width: 800px;
-    height: auto;
-}
-
-
 /* use "." before a selector to select a class */
-/* use "#" before a selector to select an id */
+/* use "#" before a selector to select an id */ 
+
+#test{
+    padding-top: 500px;
+    float:right;
+}
+
+#
+
+.nav{
+    position: fixed;
+    width: 200px;
+    height:100px;
+    text-align: right;
+    background-color: aquamarine;
+    display: inline-block;
+}
+
+.navlink{
+    padding: 10%;
+}
+
+#container {
+    width: 600px;
+    margin:auto;
+    text-align: justify;
+}
+
+.nametext {
+    float:left;
+    color:red;
+    position: fixed;
+}
+
+.titletext {
+    color:black;
+    padding-bottom: 20px;
+}
+
+.captiontext {
+    color:black;
+    text-align: center;
+    font-style: italic;
+}
+
+.bodytext {
+    color:black;
+    padding-top: 20px;
+}
+
+
+
+.image {
+    width: 600px;
+    display: block;
+    margin:auto;
+}
