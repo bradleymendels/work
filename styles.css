@@ -1,54 +1,108 @@
 /* use "." before a selector to select a class */
 /* use "#" before a selector to select an id */ 
 
-#test{
-    padding-top: 500px;
-    float:right;
+html {
+    scroll-behavior: smooth;
+  }
+
+    a{
+        color:black;
+    }
+    
+        /* Link Styling*/
+    /* unvisited link */
+    a:link {
+        color: rgb(94, 51, 65);
+      }
+      /* visited link */
+      a:visited {
+        color: rgb(94, 51, 65);
+      }
+      /* mouse over link */
+      a:hover {
+        color: hotpink;
+      }
+      /* selected link */
+      a:active {
+        color: black;
+      }
+    
+    
+    /* No underline on Links */
+    a:link {
+        text-decoration: none;
+      }
+      a:visited {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+      a:active {
+        text-decoration: none;
+      }
+    
+
+.namebar{
+    position: fixed;
+    float:left;
+    top:350px;
+    left:50px;
 }
 
-#
+.nametext {
+    color: rgb(94, 51, 65);
+    font-size: 1.5em;
+    
+}
 
 .nav{
-    position: fixed;
-    width: 200px;
-    height:100px;
-    text-align: right;
-    background-color: aquamarine;
-    display: inline-block;
+   text-align: right;
+   position:fixed;
+   top:220px;
+   line-height: 1.7;
+   right:50px;
+   white-space: nowrap;
 }
 
 .navlink{
-    padding: 10%;
+}
+
+.navsublink{
+    font-style: italic;
+    font-size: smaller;
+    text-align: justify;
+    text-indent: 20px;
+    direction:rtl;
 }
 
 #container {
     width: 600px;
     margin:auto;
     text-align: justify;
+    background-color: rgb(194, 179, 167);
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.nametext {
-    float:left;
-    color:red;
-    position: fixed;
-}
+
 
 .titletext {
-    color:black;
+    color: rgb(94, 51, 65);
     padding-bottom: 20px;
+    font-size: 30px;
 }
 
 .captiontext {
-    color:black;
+    color: rgb(94, 51, 65);
     text-align: center;
     font-style: italic;
 }
 
 .bodytext {
-    color:black;
+    color: rgb(94, 51, 65);
     padding-top: 20px;
 }
-
 
 
 .image {
