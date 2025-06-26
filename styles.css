@@ -43,7 +43,7 @@ html {
        background: transparent;
   color: rgb(194, 179, 167);
     border: none ;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #secret:hover{
@@ -70,10 +70,11 @@ html {
   background: transparent;
       color: rgb(94, 51, 65);
       border: none ;
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-family:Garamond;
     transition:.15s;
     cursor:help;
+    text-decoration: overline;
 }
 
 #namebutton:hover{
@@ -127,19 +128,27 @@ html {
 
 .titletext {
     color: rgb(94, 51, 65);
-    padding-bottom: 20px;
     font-size: 30px;
+    padding-top: 20px;
 }
 
 .captiontext {
     color: rgb(94, 51, 65);
     text-align: center;
     font-style: italic;
+    padding-bottom: 100px;
 }
 
 .bodytext {
     color: rgb(94, 51, 65);
-    padding-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+
+.abouttext {
+    color: rgb(94, 51, 65);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .image {
