@@ -1,8 +1,14 @@
 /* use "." before a selector to select a class */
 /* use "#" before a selector to select an id */ 
 
+
+/*    Smooth SCROLL  */
 html {
     scroll-behavior: smooth;
+  }
+
+  body{
+    background-color:rgb(194, 179, 167);
   }
 
     a{
@@ -36,14 +42,39 @@ html {
       }
     
   
+    /*
+.dark-mode{
+  /*
+  background: transparent;
+      border: none ;
+    font-family:Garamond;
+    cursor:pointer;
     
+      background-color:rgb(94, 51, 65);
+      color: color: rgb(194, 179, 167);
+}
+
+#dark-mode{
+  background: transparent;
+      border: none ;
+    font-family:Garamond;
+    cursor:pointer;
+      color:rgb(94, 51, 65);
+}
+
+#dark-mode:hover{
+    color:hotpink;
+}
+
+*/
+
 
 /* **********   chime     ********** */
 #secret{
        background: transparent;
   color: rgb(194, 179, 167);
     border: none ;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #secret:hover{
@@ -98,7 +129,7 @@ html {
 .nav{
    text-align: right;
    position:fixed;
-   top:220px;
+   top:25%;
    line-height: 1.7;
    right:50px;
    white-space: nowrap;
@@ -121,10 +152,23 @@ html {
     width: 600px;
     margin:auto;
     text-align: justify;
-    background-color: rgb(194, 179, 167);
+    background-color: rgb(194, 179, 167);;
     padding-left: 20px;
     padding-right: 20px;
 }
+
+/*      ************        Container Fade In       ************         */
+#container{
+opacity: 0;
+            animation: fadeIn 8s forwards;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+
+}
+
 
 .titletext {
     color: rgb(94, 51, 65);
